@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+body{
+    background-color: #FAFCF9;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+}
+h2{
+    color: #2c3134;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 2.5rem;
+    padding-bottom: 1.6rem;
+}
+.leadership-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px,auto));
+    justify-content: center;
+}
+.leadership-content .leadership-info{
+    background-color: white;
+    width: 300px;
+    height: auto;
+    margin-bottom: 30px;
+    justify-content: center;
+    padding: 30px 40px;
+}
+.leadership-img{
+    margin-bottom: 20px;
+    max-width: 100%;
+    width: 38%;
+    height: auto;
+    border-radius: 50%;
+}
+.leadership-content div h3{
+    font-weight: 600;
+    font-size: 2.0rem;
+    line-height: 2.3rem;
+    color:#2c3134;
+    margin-bottom: 0.8rem;
+}
+.leadership-content div p{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #2c3134;
+    opacity: .5;
+    margin: 0;
+}
+.leadership-content div ul{
+    margin-top: 2.3rem;
+}
+.leadership-content div li{
+    font-size: 1.0rem;
+    line-height: 2.4rem;
+    color: #2c3134;
+}
+.leadership-content div li:not(:last-child){
+    margin-bottom: 1rem;
+}
+.linkedin{
+    font-weight: 200;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    margin-top: 30px;
+}
+
+.linkedin span{
+    padding-left: 1.5rem;
+    color: #2c3134;
+    text-align: center;
+}
+
+.linkedin span:hover{
+    color: #34a853;
+}
